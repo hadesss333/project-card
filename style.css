@@ -1,0 +1,119 @@
+    
+        body {
+            background: hsl(30, 38%, 92%);     
+        }
+        .container {
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            background: hsl(0, 0%, 100%);
+            width: 50%;
+            border-radius: 10px;
+            box-sizing: border-box; 
+        }
+        img {
+            width: 50%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .text {
+            display: flex;
+            justify-content: space-evenly;
+            flex-flow: column;
+            width: 50%;
+            margin: -65px 47px -4px 47px;
+        }
+        
+        
+        h1 {
+            font-family: 'Fraunces';
+            color: hsl(212, 21%, 14%);
+            position: relative;
+            margin: 20px 0 9px;
+        }
+        p {
+            line-height: 1.9em;
+            position: relative;
+            margin: 10px 0 0px;
+        }
+        p, span.s1, span.s3 {
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 500;
+            color: hsl(228, 12%, 48%);
+            position: relative;
+        }
+        .s1 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            position: relative;
+            top: 5px;
+            margin: 5px 0 0
+        }
+        
+        .s2 {
+            font-family: 'Fraunces';
+            font-weight: 700;
+            font-size: 2em;
+            color: hsl(158, 36%, 37%);
+            position: relative;
+            bottom: -5px;
+        }
+        .s3 {
+            text-decoration: line-through solid black;
+            position: relative;
+            bottom: 22px;
+            left: 168px;  
+        }
+        button {
+            background: hsl(158, 36%, 37%);
+            color: white;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            width: 273px;
+            padding: 5px 0 12px;
+            margin: -34px 0 0;
+            position: relative;
+            top: 42px;
+            border-radius: 5px;  
+        }
+        ion-icon {
+            position: relative;
+            right: 8px;
+            top: 5px;
+            width: 1.5em;
+            height: 1.6em; 
+        }
+    
+    
+
+
+@media screen and (max-width: 376px) {
+    .container {
+        flex-flow: column;
+        width: 95%;  
+    }
+    img {
+        width: 100%;
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    h1 {
+        margin: 10px 0 10px;
+    }
+    .text {
+        width: 85%;
+        margin: -4px 47px -4px 47px;
+        padding: 25px 21px 72px;
+    }
+    button {
+        width: 95%;  
+        margin: -22px 5px 0;
+    } 
+    
+}
